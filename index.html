@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+        
+    
+    </head>
+    <body>
+      <div>
+      <h1 id="title">Survey Form</h1>  
+      <p id="description">Let us know how we can improve our "Think Deeply" website</p> 
+      <form id="survey-form">
+      <label for = "name" id="name-label">*Name</label>
+      <input id = "name" type = "text" name = "name" placeholder = "Enter you name" required pattern = "[a-zA-Z0-9]{3,15}"><br><br>
+      <label for = "email" id="email-label" >*Email</label>
+      <input id = "email" type="email" name = "email" placeholder="Enter you email" required pattern = "[a-zA-Z0-9],@,[a-z],.,[a-z]{1,20}"><br><br>
+      <label for = "number" id="number-label">*Age</label>
+      <input id = "number" type="number" name = "age" placeholder="Age" min = "18" max = "200" required><br><br>
+      
+      <label for = "dropdown">Which option best describes your current role?</label>      
+      <select id="dropdown">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Instructional Assistant</option>
+        <option>Administrator</option>
+        <option>Other</option>                   
+      </select><br><br>
+
+      <label>*How likely is that you would recommend<br> "Think Deeply" to a friend?</label><br><br><br> 
+      <div class = "radio">
+        <label for = "definitely">Definitely</label>
+        <input  id = "definitely" type="radio" name = "recommend"  value = "definitely" required><br>
+        <label for = "maybe">Maybe</label>
+        <input id = "maybe"​ type="radio" name = "recommend" value = "maybe" required><br>
+        <label for = "not sure">Not sure</label>           
+        <input id = "not sure" type="radio" name = "recommend" value = "not sure" required>
+      </div>  
+      <br><br> 
+      
+      <label for = "dropdown">What topics you like most:</label>
+      <select id="dropdown"><br><br>
+        <option>Teaching Strategies</option>
+        <option>Media & Technology</option>
+        <option>Interview</option>
+        <option>Routine Pearls</option>
+        <option>Great Links</option>
+        <option>Other</option>                   
+      </select><br><br>
+
+      <label>Which our partners are your favorites.(Check all that apply):</label><br><br>
+      <label for = "Discovery Education">Discovery Education               </label> 
+      <input id = "Discovery Education" type="checkbox" name = "partners" value = "Discovery Education"><br><br>
+      <label for = "Edshelf">Edshelf                                       </label> 
+      <input id = "Edshelf" type="checkbox" name = "partners" value = "Edshelf"><br><br>
+      <label for = "ReadWriteThink">ReadWriteThink                         </label> 
+      <input id = "ReadWriteThink" type="checkbox" name = "partners" value = "ReadWriteThink"><br><br>
+      <label for = "Common Sense Media">Common Sense Media                 </label>
+      <input id = "Common Sense Media" type="checkbox" name = "partners" value = "Common Sense Media"><br><br>  
+      <label for = "Smithsonian Learning Lab">Smithsonian Learning Lab                                             
+      </label>
+      <input type="checkbox" name = "partners"value = "Smithsonian Learning Lab" required><br><br> 
+      
+      
+      <label>Any Comments or Suggestions?</label>
+      <textarea rows = "8" cols = "50" wrap>
+      Text        
+      </textarea><br><br>                                         
+      <input type = "submit" id="submit" value = "Send"><br><br>                   </form> 
+      </div>
+  </body>
+</html>                                                     
+           

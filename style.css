@@ -1,0 +1,36 @@
+body {
+  color: #1a1a00;
+  background: #99ff33;
+  font-family: "Open Sans", Arial;
+  font-size: 16 px;
+  font-family: 'Helvetica-Neue', 'Helvetica', 'Arial';
+}
+
+div {
+  width: 80%;
+  margin: auto;
+  background: #fff;
+  padding-top: 20px;
+  
+  }
+
+h1, h2, #description {
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 50%;
+  clear: both;
+  text-align: right;
+  margin-right: 20px;
+  float: left;
+}
+
+.radio input{
+  display: inline-block;
+   }
+input[type="submit"]{
+  display: block;
+  margin: auto;
+}
